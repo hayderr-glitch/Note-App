@@ -3,13 +3,10 @@ import 'package:flutter/material.dart';
 import 'routes/route_generator.dart';
 
 void main() async {
-  // ignore: unnecessary_new
-  runApp(const AppEntry());
+  runApp(new AppEntry());
 }
 
 class AppEntry extends StatelessWidget {
-  const AppEntry({super.key});
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
